@@ -1,0 +1,12 @@
+table {
+  background: #a7ceff;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  background: #ffffcc;
+  width: 25%;
+  text-align: center;
+}
+

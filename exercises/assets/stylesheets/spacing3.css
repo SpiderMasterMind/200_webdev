@@ -1,0 +1,17 @@
+/* fit the items side by side in one row */
+
+ul {
+  padding: 0;
+  list-style: none;
+  background: #a7ceff;
+}
+
+li {
+  display: inline-block;
+  width: 23%;
+  min-height: 120px;
+  line-height: 120px;
+  text-align: center;
+  background: #ffffcc;
+  margin: -10px 1%;
+}
