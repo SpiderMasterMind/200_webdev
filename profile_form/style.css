@@ -1,0 +1,93 @@
+@import url("whitespace-reset.css");
+
+body {
+    font: normal 16px Helvetica, Arial, sans-serif;
+}
+
+form {
+    max-width: 37.5rem;
+    padding: 24px;
+    margin: 0 auto;
+}
+
+h1 {
+    font: normal 28px Helvetica, Arial, sans-serif;
+    padding-bottom: 26px;
+ }
+
+h2 {
+    font: bold 20px Helvetica, Arial, sans-serif;
+   padding: 0 0 1.25rem 0;
+}
+
+fieldset {
+    background: #ececec;
+    width: 600px;
+    border: 0;
+    padding: 24px;
+    margin: 0 auto;
+    margin-bottom: 1px;
+    border-left: 5px solid #cdcccb;
+    box-sizing: border-box;
+}
+
+fieldset.personal {
+    height: 275px;
+}
+
+label {
+    font: bold 16px Helvetica, Arial, sans-serif;
+    color: #676767; 
+    display: block;
+    padding-bottom: 10px
+}
+
+/* GENERAL INPUT STYLING */
+
+input,
+textarea {
+    padding: 5px 8px;
+    margin-bottom: 24px;
+    border: 1px solid #0066cc;
+    border-radius: 4px;
+    height: 2.5rem;
+    box-sizing: border-box;
+    font: normal 0.875rem Helvetica, Arial, sans-serif;
+}
+
+/* TWO INPUTS IN WIDTH */
+
+input[name="first_name"],
+input[name="last_name"],
+input[name="password"],
+input[name="confirm"] {
+    display: inline-block;
+    width: 49%;
+}
+
+input[name="last_name"] {
+    float: right;
+    margin-left: 2%;
+}
+
+/* ONE INPUT IN WIDTH */
+
+input[name="email"] {
+    width: 100%;
+}
+
+/* THREE INPUT IN WIDTH */
+
+dl.third {
+    width: 33.3%;
+}
+
+dl.partial {
+    box-sizing; border-box;
+    display: inline-block;
+    padding-right: 1.25rem;
+}
+
+dl.last {
+    padding-right: 0;
+}
