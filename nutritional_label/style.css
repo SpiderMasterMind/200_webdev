@@ -1,0 +1,97 @@
+@import url("whitespace_reset.css");
+
+html {
+    display: block;
+    width: 695px;
+}
+
+body {
+    font: normal 28px Helvetica, Arial, sans-serif;
+    border: 2px solid black;
+    margin: 8px;
+    box-sizing: border-box;
+}
+
+header {
+    border-bottom: 15px solid black;
+}
+
+header h2 {
+    border-top: 30px solid black;
+    border-bottom: 1px solid black;
+    font-weight: 600;
+    padding: 8px 0 9px 0;
+    margin: 2px 0 0 0;
+}
+
+article {
+    padding: 8px 12px;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+dl {
+    display: inline-block;
+}
+
+dt {
+    display: inline-block;
+}
+
+dd {
+    display: inline-block;
+}
+
+dl + dl {
+    float: right;
+}
+
+/* FIRST TABLE STYLING */ 
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+tr {
+    border-top: 1px solid black;
+}
+
+td:nth-child(2) {
+    float: right;
+}
+
+table tr:nth-child(2) dt,
+table tr:nth-child(3) dt,
+table tr:nth-child(7) dt,
+table tr:nth-child(8) dt {
+    margin: 0 0 0 25px;
+}
+
+tbody + tbody {
+    border-top: 16px solid black;
+}
+
+tfoot {
+    font-size: 0.7em;
+    width: 100%;
+}
+
+tfoot td {
+    padding: 10px 5px 10px 5px;
+    float: left;
+}
+
+/* SECOND TABLE STYLING */
+
+table + table {
+    font-size: 0.8em;
+}
