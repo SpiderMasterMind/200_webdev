@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <input type="checkbox" id="menu-toggle" />
+    <nav>
+      <div class="nav_todos">
+        <img src="images/icon_todo.png" alt="Todos_Icon" />
+        <table>
+          <thead>
+            <tr>
+              <td id="heading">All Todos</td>
+              <td>
+                <img src="images/icon_double.png" alt="two_digits"/>18
+              </td>
+            </tr>
+          </thead>
+          <tbody>
+            <div class="selected_todo">
+              <tr>
+                <td>02/16</td>
+                <td>
+                  <img src="images/icon_single_blue.png" alt="single_digit"  id="selected_todos" />
+                </td>
+                </div>
+              </tr>
+            </div>
+            <tr>
+              <td>02/16</td>
+              <td>
+                <img src="images/icon_single.png" alt="single_digit" />2
+              </td>
+            </tr>
+            <tr>
+              <td>02/16</td>
+              <td>
+                <img src="images/icon_single.png" alt="single_digit"/>1
+              </td>
+            </tr>
+            <tr>
+              <td>02/16</td>
+              <td>
+                <img src="images/icon_single.png" alt="single_digit"/>1
+              </td>
+            </tr>
+            <tr>
+              <td>02/16</td>
+              <td>
+                <img src="images/icon_single.png" alt="single_digit"/>6
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="completed_todos_wrapper">
+        <img src="images/icon_completed.png" alt="Todos_Icon" />
+        <ul>
+          <li id="heading">Completed</li>
+          <li>02/15</li>
+          <li>02/15</li>
+          <li>02/15</li>
+          <li>02/15</li>
+          <li>02/15</li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <div class="wrapper">
+        <div class="hamburger_toggle">
+          <label for="menu-toggle">
+            <img src="images/icon_menu.png" alt="Hamburger_Toggle" />
+          </label>
+        </div>
+        <div class="info_bar">
+          <span>02/16</span>
+        </div>
+        <input type="checkbox" id="add_todo" />
+        <table class="main_table">
+          <thead>
+            <th>Add new to do</th>
+            <td></td>
+          </thead>
+          <tbody>
+            <div class="background">
+              <div class="form">
+                <form action="" method="post">
+                  <fieldset>
+                    <div class="form_title">
+                      <label for="title">Title</label>
+                      <input type="text" name="title" id="title" maxlength="127"/>
+                    </div>
+                    <div class="form_date">
+                      <label for="date">Due Date</label>
+                        <div class="select_style">
+                          <select name="day" id="day"></select>
+                        </div>
+                        <div class="select_style">
+                          <select name="month" id="month"></select>
+                        </div>
+                        <div class="select_style">
+                          <select name="year" id="year"></select>
+                        </div>
+                    </div>
+                    <div class="form_description">
+                      <label for="description">Description</label>
+                      <textarea name="description" rows="6" cols="80"></textarea>
+                    </div>
+                    <div class="submit_row">
+                      <button class="button">Save</button>
+                      <button class="button">Mark As Complete</button>
+                    </div>
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+            <tr>
+              <td><label for="add_todo">Item 1</label></td>
+              <td><img src="images/icon_trash.png" alt="Trash_Icon" /></td>
+            </tr>
+            <tr>
+              <td>Item 2</td>
+              <td><img src="images/icon_trash.png" alt="Trash_Icon" /></td>
+            </tr>
+            <tr>
+              <td>Item 3</td>
+              <td><img src="images/icon_trash.png" alt="Trash_Icon" /></td>
+            </tr>
+            <tr>
+              <td>Item 4</td>
+              <td><img src="images/icon_trash.png" alt="Trash_Icon" /></td>
+            </tr>
+            <tr>
+              <td>Item 5</td>
+              <td><img src="images/icon_trash.png" alt="Trash_Icon" /></td>
+            </tr>
+            <tr>
+              <td>Item 6</td>
+              <td><img src="images/icon_trash.png" alt="Trash_Icon" /></td>
+            </tr>
+            <tr>
+              <td>Item 7</td>
+              <td><img src="images/icon_trash.png" alt="Trash_Icon" /></td>
+            </tr>
+            <tr>
+              <td>Item 8</td>
+              <td><img src="images/icon_trash.png" alt="Trash_Icon" /></td>
+            </tr>
+            <tr>
+              <td>Item 9</td>
+              <td><img src="images/icon_trash.png" alt="Trash_Icon" /></td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+    </main>
+  </body>
+</html>
