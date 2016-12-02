@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <title>Extra Box Model</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta charset="UTF-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <main>
+      <h1>Lists, Links & Positioning: A CSS Exercise</h1>
+      <div class="main_wrapper">
+        <div class="main_column_1to3">
+          <h2>Column 1</h2>
+          <div class="abs_image">
+            <h4>Absolutely positioned element</h4>
+            <a href="#"><img src="http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/uploads/2015/10/kate___android__netrunner_by_viccolatte-d64r06t.jpg" alt="paintbrush_kate" /></a>
+          </div>
+          <div class="large_main_bar_wrapper">
+            <div class="large_main_bar">
+              Fixed height 'main' infobar
+            </div>
+          </div>
+        </div>
+        <div class="main_column_1to3"><!--
+          --><h2>Column 2</h2>
+          <div class="large_wrapper">
+            <div class="third_wrapper" id="top">
+              Sub infobars
+            </div>
+            <div class="third_wrapper">
+              Total height
+            </div>
+            <div class="third_wrapper">
+              = that of main bar
+            </div>
+          </div>
+        </div>
+        <div class="main_column_1to3">
+          <h2>Third column is rounded</h2>
+          <div class="large_main_bar_wrapper">
+            <div class="large_main_bar" id="rounded">
+              <span id="round_content">Different height to the others</span>
+            </div>
+          </div>
+          <h4>Same width</h4>
+        </div>
+      </div>
+      <div class="spacing_div">
+      </div>
+      <h4 id="footer_label">Inline links below, centered with 'line-height' = footer element height</h4>
+      <h4 id="footer_label">Footer is floated and cleared, to start underneath the main columns above</h4>
+      <h4 id="footer_label">Width is 100% of the 3 main columns</h4>
+      <footer>
+        <ul>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+        </ul>
+      </footer>
+    </main><!--
+    --><nav>
+      <h1>Sidebar Left</h1>
+      <div class="definition_list_div">
+        <h2>Definition list of links</h2>
+        <h3>Optional Title</h3>
+        <dl>
+          <dd><a href="#">CheddarG</a></dd><!--
+          --><dt><a href="#">14701</a></dt><!--
+          --><dd><a href="#">CheddarG</a></dd><!--
+          --><dt><a href="#">14701</a></dt><!--
+          --><dd><a href="#">CheddarG</a></dd><!--
+          --><dt><a href="#">14701</a></dt><!--
+          --><dd><a href="#">CheddarG</a></dd><!--
+          --><dt><a href="#">14701</a></dt>
+        </dl>
+        </div>
+        <div class="definition_list_div">
+          <h2>Definition List with 'selected' class</h2>
+          <h3>Optional Title</h3>
+          <dl>
+            <dd>CheddarG</dd><!--
+            --><dt>14701</dt><!--
+            --><dd class="selected1">CheddarG</dd><!--
+            --><dt class="selected1">14701</dt><!--
+            --><dd>CheddarG</dd><!--
+            --><dt>14701</dt><!--
+            --><dd>CheddarG</dd><!--
+            --><dt>14701</dt>
+          </dl>
+        </div>
+        <div class="definition_list_div" id="nav_list">
+          <h2>Another!</h2>
+          <h3>Unordered Link List, aligned with above</h3>
+          <ul>
+            <li><a href="#">General Strategy</a></li>
+            <li><a href="#">Tips & Tricks</a></li>
+            <li><a href="#">Juggernaut</a></li>
+            <li><a href="#">BMS</a></li>
+          </ul>
+        </div>
+        <div class="ol_nav">
+          <ol>
+            <li>List</li>
+            <li>Items</li>
+            <li>aligned</li>
+            <li>with</li>
+            <li>those</li>
+            <li>above</li>
+            <li>right</li>
+          </ol>
+        </div>
+      </nav><!--
+      --><aside>
+      <div class="aside_top">
+        <h1>Sidebar Right</h1>
+        <div class="aside_top_bar">
+          <span id="Red_span">Centered</span>
+          <a href="#">Link</a>
+          <a href="#">Link</a>
+          <a href="#">Link</a>
+        </div>
+        <div class="aside_top_bar">
+          <span id="Yellow_span">Link</span>
+          <a href="#">Link</a>
+          <a href="#">Link</a>
+          <a href="#">Link</a>
+          <a href="#">Link</a>
+        </div>
+        <div class="aside_top_bar">
+          <span id="Green_span">Lists</span>
+          <a href="#">Link</a>
+          <a href="#">Link</a>
+        </div>
+      </div>
+      <div class="aside_bottom">
+        <h1>Imgs with one floated img, targeted by ID, on the right</h1>
+        <img src="http://placehold.it/50x50" alt="aside_top" />
+        <img class="side_image" src="http://placehold.it/50x50" alt="aside_top" />
+        <img src="http://placehold.it/50x50" alt="aside_top" />
+        <img src="http://placehold.it/50x50" alt="aside_top" />
+      </div>
+    </aside>
+  </body>
+</html>
